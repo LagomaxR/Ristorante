@@ -593,7 +593,7 @@ const menuData = {
         },
         {
             "id": "primi",
-            "name": "Primi piatti",
+            "name": "Vuoto",
             "items": []
         },
         {
@@ -881,4 +881,5 @@ const menuData = {
             "items": []
         }
     ]
+
 };
