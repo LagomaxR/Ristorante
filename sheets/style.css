@@ -416,12 +416,6 @@ section:nth-child(odd) {
   visibility: visible;
 }
 
-.bottom-nav.hidden {
-  transform: translateX(-50%) translateY(120px);
-  opacity: 0;
-  visibility: hidden;
-}
-
 .nav-content {
   display: flex;
   justify-content: space-between;
