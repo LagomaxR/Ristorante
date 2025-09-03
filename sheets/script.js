@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', () => {
     initializeSchedule();
     initializeMenu();
     initializeNavigation();
-    initializeBottomNavScroll();
 });
 
 function initializeHeroSlideshow() {
@@ -166,20 +165,4 @@ function initializeNavigation() {
             }
         }
     });
-}
-
-function initializeBottomNavScroll() {
-    const bottomNav = document.getElementById('bottomNav');
-
-    window.addEventListener('scroll', () => {
-        const scrolled = window.pageYOffset;
-        const documentHeight = document.documentElement.scrollHeight - window.innerHeight;
-        const scrollPercentage = (scrolled / documentHeight) * 100;
-
-        if (scrollPercentage > 20 && scrollPercentage < 80) {
-            bottomNav.classList.add('hidden');
-        } else {
-            bottomNav.classList.remove('hidden');
-        }
-    }, { passive: true });
 }
