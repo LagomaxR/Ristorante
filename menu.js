@@ -340,7 +340,13 @@ const menuData = {
         {
             "id": "calzone",
             "name": "Calzone fritto",
-            "items": []
+            "items": [
+                {
+                    "name": "Pomodoro, mozzarella",
+                    "description": "Pomodoro, mozzarella",
+                    "pricing": { "type": "single", "price": 7.00 }
+                },
+            ]
         },
         {
             "id": "stuzzicheria",
@@ -883,3 +889,4 @@ const menuData = {
     ]
 
 };
+
