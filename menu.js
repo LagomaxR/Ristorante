@@ -339,7 +339,7 @@ const menuData = {
         },
         {
             "id": "calzone",
-            "name": "Calzone fritto",
+            "name": "Prossimamente Novità! Calzone fritto",
             "items": [
                 {
                     "name": "Pomodoro, mozzarella",
@@ -594,7 +594,7 @@ const menuData = {
         },
         {
             "id": "contorni",
-            "name": "Contorni",
+            "name": "Vuoto",
             "items": []
         },
         {
@@ -889,4 +889,5 @@ const menuData = {
     ]
 
 };
+
 
