@@ -349,8 +349,28 @@ const menuData = {
                 {
                   "name": "1",
                     "description": "mozzarella, scamorza,  melanzane trifolate ",
-                    "pricing": { "type": "single", "price": 10.00 }  
-            ]
+                    "pricing": { "type": "single", "price": 10.00 }
+                 },
+                {
+                  "name": "2",
+                    "description": "pomodoro, mozzarella, salame piccante ",
+                    "pricing": { "type": "single", "price": 10.00}
+                   },
+                {
+                  "name": "3",
+                    "description": "mozzarella, mortadella, grana ",
+                    "pricing": { "type": "single", "price": 10.00}
+                        },
+                {
+                  "name": "4",
+                    "description": "pomodoro, mozzarella, prosciutto cotto ",
+                    "pricing": { "type": "single", "price": 10.00}
+                        },
+                {
+                  "name": "5",
+                    "description": "Quattro formaggi: gorgonzola, mozzarella, fontina, grana, nduja ",
+                    "pricing": { "type": "single", "price": 10.00}
+                        ]
         },
         {
             "id": "stuzzicheria",
@@ -893,6 +913,7 @@ const menuData = {
     ]
 
 };
+
 
 
 
