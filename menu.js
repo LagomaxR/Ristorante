@@ -339,13 +339,17 @@ const menuData = {
         },
         {
             "id": "calzone",
-            "name": "Prossimamente Novità! Calzone fritto",
+            "name": "Calzone fritto",
             "items": [
                 {
                     "name": "Pomodoro, mozzarella",
                     "description": "Pomodoro, mozzarella",
-                    "pricing": { "type": "single", "price": 7.00 }
+                    "pricing": { "type": "single", "price": 8.00 }
                 },
+                {
+                  "name": "1",
+                    "description": "mozzarella, scamorza,  melanzane trifolate ",
+                    "pricing": { "type": "single", "price": 10.00 }  
             ]
         },
         {
@@ -889,5 +893,6 @@ const menuData = {
     ]
 
 };
+
 
 
