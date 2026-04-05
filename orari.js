@@ -1,4 +1,4 @@
-lun = 'Chiuso';
+lun = '19:00 - 21:30';
 mar = 'Chiuso';
 mer = 'Chiuso';
 gio = '19:00 - 22:00';
